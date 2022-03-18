@@ -51,7 +51,7 @@ class Follower(Base):
     followed = Column(String(250),ForeignKey('user.id'))
     follower = Column(String(250),ForeignKey('user.id'))
 
-
+#
 
 ## Draw from SQLAlchemy base
 try:
